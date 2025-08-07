@@ -1,0 +1,74 @@
+@media only screen and (min-width:200px) and (max-width:1000px) {
+    /* .portfolio-row {
+        display: flex;
+        flex-direction: column;
+    } */
+
+    .about-title p {
+        color: #444444;
+        font-size: 16px;
+        margin: 15px 3px 0px;
+    }
+
+    .hero-second-row {
+        gap: 20px;
+    }
+
+    .about-card h3 {
+        margin-top: 20px;
+    }
+
+    .client-row {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .service-row {
+        display: flex;
+        gap: 20px;
+    }
+
+    .testimonials-container p {
+        font-size: 16px;
+        color: #EEEEEE;
+        margin: 0px 30px 15px;
+        font-style: italic;
+    }
+
+    .team-row {
+        display: flex;
+        gap: 20px;
+    }
+
+    .pricing-row {
+        display: flex;
+        gap: 20px;
+    }
+
+    .map-row {
+        display: flex;
+        gap: 20px;
+    }
+
+    .portfolio-row {
+        height: auto;
+        /* remove fixed height */
+    }
+
+    .filter-web1,
+    .filter-web2,
+    .filter-web3,
+    .filter-web4,
+    .filter-web5,
+    .filter-web6,
+    .filter-web7,
+    .filter-web8,
+    .filter-web9 {
+        position: static !important;
+        left: auto !important;
+        top: auto !important;
+        margin-bottom: 20px;
+    }
+
+}
